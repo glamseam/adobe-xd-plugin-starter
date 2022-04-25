@@ -1,0 +1,34 @@
+{
+    "name": "@d-gs/adobe-xd-plugin-starter",
+    "version": "0.0.1",
+    "description": "Adobe XD plugin starter.",
+    "main": "src/main.ts",
+    "author": "__d",
+    "license": "MIT",
+    "keywords": [
+        "adobe",
+        "xd",
+        "typescript"
+    ],
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/glamseam/adobe-xd-plugin-starter.git"
+    },
+    "bugs": {
+        "url": "https://github.com/glamseam/adobe-xd-plugin-starter/issues"
+    },
+    "scripts": {
+        "dev": "tsc -w",
+        "build": "tsc"
+    },
+    "devDependencies": {
+        "@d-gs/eslint-config": "^0.1.12",
+        "adobexd-types": "^49.0.0",
+        "eslint": "^8.14.0",
+        "typescript": "^4.6.3"
+    },
+    "dependencies": {
+        "@typescript-eslint/eslint-plugin": "^5.21.0",
+        "@typescript-eslint/parser": "^5.21.0"
+    }
+}
